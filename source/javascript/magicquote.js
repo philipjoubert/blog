@@ -37,7 +37,7 @@ jQuery(function(){
       var quoteElement = $jq(this);
       var elementTop = quoteElement.offset().top;
       var windowHeight = jqWindow.height();
-      var percentDisplayed = ((elementTop - scrollTop) / windowHeight) ** 2;
+      var percentDisplayed = Math.pow(((elementTop - scrollTop) / windowHeight),2);
       console.log(percentDisplayed);
       if (percentDisplayed > 1.1 || percentDisplayed < -0.1) {
         return;
