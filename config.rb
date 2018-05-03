@@ -34,9 +34,9 @@ activate :blog do |blog|
   # This will add a prefix to all links, template references and source paths
   # blog.prefix = "blog"
 
-  blog.permalink = "{title}.html"
+  blog.permalink = "{title}"
   # Matcher for blog source files
-  # blog.sources = "{title}.html"
+  blog.sources = "articles/{title}.html"
   # blog.taglink = "tags/{tag}.html"
   blog.layout = "blog-post"
   # blog.summary_separator = /(READMORE)/
@@ -51,7 +51,7 @@ activate :blog do |blog|
   blog.new_article_template = File.expand_path('../source/template.yml', __FILE__)
 
   # Enable pagination
-  # blog.paginate = true
+  blog.paginate = false
   # blog.per_page = 10
   # blog.page_link = "page/{num}"
 end

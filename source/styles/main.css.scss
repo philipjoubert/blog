@@ -4,13 +4,23 @@ body {
   background-color: #ff5959;
 }
 
-p {
+body, p, blockquote, a {
   font-family: helvetica;
+  color: #22313f;
 }
 
-article {
-  background-color: #fff;
-  padding: 0 10% 10%;
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #22313f;
+}
+
+a:hover, a:focus {
+  border-bottom: none;
+  color: rgba( 34, 49, 63, 0.7);
+}
+
+article h1 {
+  margin: 0;
 }
 
 article p {
@@ -25,6 +35,8 @@ article p {
 
 aside {
   background-color: #ffe66d;
+  flex-basis: 25%;
+  min-width: 300px;
 }
 
 img {
@@ -33,23 +45,38 @@ img {
 }
 
 .main {
-  display: grid;
-  grid-template-columns: auto minmax(min-content, 1fr);
-  grid-template-rows: auto minmax(min-content, 1fr) auto;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
   margin: 0 auto;
-}
-
-aside {
-  grid-column: 1;
-  grid-row: 1;
-  padding: 5px 10px;
-  max-width: 400px;
+  min-height: 100vh;
 }
 
 .content {
-  grid-column: 2;
-  grid-row: 1;
-  align-self: start;
-  margin: 0 8.3333%;
-  padding: 0 8.3333;
+  width: 100%;
+}
+
+article {
+  background-color: #fff;
+  padding: 10%;
+  margin: 8.33%;
+}
+
+nav {
+  padding: 5% 10%;
+  background-color: #fff;
+  margin: 8.33%;
+
+  a {
+    font-size: 30px;
+  }
+
+  .meta-nav {
+    display: block;
+    text-transform: uppercase;
+  }
+}
+
+b , strong {
+  font-weight: 700;
 }
