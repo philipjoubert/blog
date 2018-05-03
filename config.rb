@@ -23,9 +23,17 @@ config[:js_dir] = 'javascript'
 # Helpers
 ###
 
+activate :asset_hash
+
 #Set timezone
 require 'tzinfo'
 Time.zone = 'Africa/Johannesburg'
+
+#Sitemap
+
+set :url_root, 'http://philipjoubert.com'
+
+activate :search_engine_sitemap
 
 #Clean URLs
 activate :directory_indexes
@@ -80,6 +88,7 @@ configure :build do
   activate :minify_javascript
 
   activate :minify_html
-  
+
   activate :gzip
+
 end
