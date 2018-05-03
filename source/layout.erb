@@ -11,21 +11,23 @@
   <body>
     <div class="main">
       <aside>
-        <%= image_tag "philip.jpg" %>
-        <%= link_to "Philip Joubert", "/" %>
+        <div class="bio">
+          <%= image_tag "philip.jpg" %>
+          <span class="home-nav"><%= link_to "Philip Joubert", "/" %></span>
 
-        <p>
-          Welcome to my site! I’m the co-founder at <%= link_to "OfferZen", "https://www.offerzen.com/" %>, focused on AI. I’m also the co-founder of AI Grant, a distributed AI research lab.
-        </p>
-        <p>
-          Previously I was a Director at Apple via the acquisition of Cue, which I co-founded.
-        </p>
-        <p>
-          In my spare time, I love long distance running and long distance reading. Ideally with a strong cup of overpriced coffee.
-        </p>
-        <p>
-          I love helping people around the world with their projects. Find me via email or Twitter <%= link_to "@philipjoubert", "https://twitter.com/PhilipJoubert" %>.
-        </p>
+          <p>
+            Welcome to my site! I’m the co-founder at <%= link_to "OfferZen", "https://www.offerzen.com/" %>, focused on AI. I’m also the co-founder of AI Grant, a distributed AI research lab.
+          </p>
+          <p>
+            Previously I was a Director at Apple via the acquisition of Cue, which I co-founded.
+          </p>
+          <p>
+            In my spare time, I love long distance running and long distance reading. Ideally with a strong cup of overpriced coffee.
+          </p>
+          <p>
+            I love helping people around the world with their projects. Find me via email or Twitter <%= link_to "@philipjoubert", "https://twitter.com/PhilipJoubert" %>.
+          </p>
+        </div>
       </aside>
       <div class="content">
         <%= yield %>

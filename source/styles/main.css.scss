@@ -1,12 +1,24 @@
 @import 'normalize';
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   background-color: #ff5959;
 }
 
-body, p, blockquote, a {
-  font-family: helvetica;
+a,
+p,
+body,
+button,
+input,
+select,
+textarea {
   color: #22313f;
+  font-family: Helvetica, Arial, sans-serif, serif;
+  font-size: 1.5rem;
+  line-height: 1.6;
 }
 
 a {
@@ -21,27 +33,49 @@ a:hover, a:focus {
 
 article h1 {
   margin: 0;
+  font-size: 3.9rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
 }
 
-article p {
+article p, article a {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
   -ms-hyphens: auto;
   hyphens: auto;
   word-wrap: break-word;
-
   line-height: 1.6;
+  margin: 0 0 30px 0;
+  font-size: 1.9rem;
 }
 
 aside {
   background-color: #ffe66d;
-  flex-basis: 25%;
-  min-width: 300px;
+  flex-basis: 23%;
+  min-width: 260px;
+  padding: 0 20px;
 }
 
-img {
-  border-radius: 50%;
-  max-width: 150px;
+aside .bio {
+  
+  img {
+    display: block;
+  }
+
+  p, a {
+    font-size: 1.4rem;
+  }
+
+  .home-nav a {
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: none;
+  }
+
+  img {
+    border-radius: 50%;
+    max-width: 150px;
+  }
 }
 
 .main {
@@ -58,12 +92,12 @@ img {
 
 article {
   background-color: #fff;
-  padding: 10%;
-  margin: 8.33%;
+  padding: 40px;
+  margin: 60px;
 }
 
 nav {
-  padding: 5% 10%;
+  padding: 40px 40px;
   background-color: #fff;
   margin: 8.33%;
 
@@ -79,4 +113,18 @@ nav {
 
 b , strong {
   font-weight: 700;
+}
+
+.index {
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    list-style-type: none;
+    margin: 20px;
+  }
+}
+.index a {
+  font-size: 22px;
 }
