@@ -5,11 +5,11 @@ html {
 }
 
 body {
-  background-color: #ff6b6b;
+  background-color: #E55934;
 }
 
 body:before {
-    background-color: #ffe66d;
+    background-color: #FDE74C;
     box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
     content: "";
     display: block;
@@ -90,7 +90,7 @@ article {
 }
 
 aside {
-  background-color: #ffe66d;
+  background-color: #FDE74C;
   float: left;
   margin-right: -100%;
   max-width: 413px;
@@ -204,7 +204,7 @@ nav {
 @media all and (max-width: 736px) {
   article, nav {
     margin: 5%;;
-    padding: 7%;
+    padding: 5%;
   }
 
   article {
