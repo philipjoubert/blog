@@ -41,7 +41,7 @@ b , strong {
 
 a {
   text-decoration: none;
-  border-bottom: 1px solid #22313f;
+  border-bottom: 1px solid #c6c8ca;
 }
 
 a:hover, a:focus {
@@ -77,6 +77,20 @@ article {
     font-size: 3rem;
     line-height: 1.2;
     margin-bottom: 3rem;
+  }
+
+  h2, h2 > a {
+    margin: 0;
+    font-size: 2.6rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+
+  h3, h3 > a {
+    margin: 0;
+    font-size: 2.2rem;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
   }
 
   blockquote {
