@@ -1,6 +1,8 @@
 <% wrap_layout :layout do %>
   <article>
-    <h1><%= current_article.title %></h1>
+    <% link_to current_article do %>
+      <h1><%= current_article.title %></h1>
+    <% end %>
     <%= yield %>
   </article>
 
