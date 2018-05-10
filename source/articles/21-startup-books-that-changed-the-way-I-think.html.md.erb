@@ -11,7 +11,7 @@ A lot of people at [OfferZen](https://www.offerzen.com/) have started reading st
 
 ### [High Output Management - Andrew Grove](https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884)
 
-<% link_to "https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884" do %>
+<% link_to "https://www.amazon.com/High-Output-Management-Andrew-Grove/dp/0679762884", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/high-output-management.jpg" %>
 <% end %>
 
@@ -21,39 +21,73 @@ Introduces concepts like 1:1's, which is the foundation for management at OfferZ
 
 ### [The Goal - Eliyahu Goldratt](https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951)
 
-<% link_to "https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951" do %>
+<% link_to "https://www.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/the-goal.jpg" %>
 <% end %>
 
-A great deal of the way we think about throughput vs. efficiency is based off The Goal. You’ll find this book useful when thinking about what cadence your team should have, what is useful work and how to get more done in less time.
+This book is a little weird: it's written in novel format and is focused on a manufacturing plant. Don't let that throw you off thought. In The Goal, we're introduced to the [theory of constraints (TOC)](https://en.wikipedia.org/wiki/Theory_of_constraints), which is an incredibly useful model for thinking about systems.
+
+One of the concepts from TOC I refer to most often is **bottlenecks**. TOC says that a system usually has only a few constraints. These bottlenecks prevent the system from producing more - in effect they determine the throughput of the entire system. This simple concept has serious implications:
+
+* An hour lost at a bottleneck is an hour lost for the entire system
+* An hour saved at a non-bottleneck is a mirage
+
+I find keeping these concepts in mind is super useful when prioriting features on our roadmap. After you've read the goal it's also worth checking out [The Phoenix Project](https://www.amazon.com/Phoenix-Project-DevOps-Helping-Business/dp/0988262592) . It's also a narrative-based book - this time focusing on applying the theory of constraints to software development. _Note: Don't skip straight to The Phoenix Project as it assumes you already have a solid grasp of TOC._
 
 ### [Modern Monopolies - Alex Moazed](https://www.amazon.com/Modern-Monopolies-Dominate-Century-Economy-ebook/dp/B017RC8CBC)
 
-<% link_to "https://www.amazon.com/Modern-Monopolies-Dominate-Century-Economy-ebook/dp/B017RC8CBC" do %>
+<% link_to "https://www.amazon.com/Modern-Monopolies-Dominate-Century-Economy-ebook/dp/B017RC8CBC", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/modern-monopolies.jpg" %>
 <% end %>
 
-This is the best book on how online marketplaces work. There are a lot of non-intuitive aspects of marketplaces that make them very different from traditional linear businesses. 
+Online marketplaces are sexy. Companies like eBay, Uber and Airbnb have shown how fast you can scale a marketplace. It's not surprisingly then that there are dozens of books that promise to share insights about this new business model. Unfortunately, most of them are incredibly shallow and merely end up repeating things like _"Airbnb is the the world's largest accommodation provider but owns no property"_ without actually explaining how marketplaces work.
+
+Modern Monopolies is different. It really gets into the meat of the matter - and explains the counter-inintuitive aspects of online platforms. For instance it clearly breaks down the core functions of a platform: 
+
+* **Audience building:** Build a liquid marketplace by attracting a critical mass of consumers and producers. 
+* **Matchmaking:** Connect the right consumers with the right producers in order to facilitate transactions and interactions.
+* **Providing core tools and services:** Build tools and services that support the core transaction by lowering transaction costs, removing barriers to entry, and making the platform more valuable over time through data.
+* **Creating rules and standards:** Set guidelines that govern which behaviors are allowed and encouraged and which are forbidden or discouraged.
 
 ### [Scaling Up - Verne Harnish](https://www.amazon.com/Scaling-Up-Companies-Rockefeller-Habits/dp/0986019526)
 
-<% link_to "https://www.amazon.com/Scaling-Up-Companies-Rockefeller-Habits/dp/0986019526" do %>
+<% link_to "https://www.amazon.com/Scaling-Up-Companies-Rockefeller-Habits/dp/0986019526", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/scaling-up.jpg" %>
 <% end %>
 
 We’re no longer an early-stage startup and many of the processes/tactics we used until now have to be rethought. We’re using this book as the framework for making the transition.
 
+1. The executive team is healthy and aligned.
+2. Everyone is aligned with the #1 thing that needs to be accomplished this quarter to move the company forward.
+3. Communication rhythm is established and information moves through organization accurately and quickly. 
+4. Every facet of the organization has a person assigned with accountability for ensuring goals are met.
+5. Ongoing employee input is collected to identify obstacles and opportunities.
+6. Reporting and analysis of customer feedback data is as frequent and accurate as financial data.
+7. Core Values and Purpose are “alive” in the organization.
+8. Employees can articulate the following key components of the company’s strategy accurately.
+9. All employees can answer quantitatively whether they had a good day or week.
+10. The company’s plans and performance are visible to everyone. 
+
 ### [Good Strategy Bad Strategy - Richard Rumelt](https://www.amazon.com/Good-Strategy-Bad-Difference-Matters-ebook/dp/B004J4WKEC)
 
-<% link_to "https://www.amazon.com/Good-Strategy-Bad-Difference-Matters-ebook/dp/B004J4WKEC" do %>
+<% link_to "https://www.amazon.com/Good-Strategy-Bad-Difference-Matters-ebook/dp/B004J4WKEC", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/good-strategy-bad-strategy.jpg" %>
 <% end %>
 
 Before making any strategic decisions you’ll want to read this book and write out a strategy kernel.
 
+Rumelt introduces a structure for defining your strategy called a **kernel** - which I use all the time. A strategy kernel a simple and succinct way to describe your strategy.
+
+The kernel consist of three elements:
+
+1. **Diagnosis** that defines or explains the nature of the challenges. A good diagnosis simplifies the overwhelming complexity of reality by identifying certain aspects of the situation as critical.
+2. **Guiding policy** for dealing with the challenge. This is the overall approach chosen to cope with or overcome the obstacles identified in the diagnosis.
+3. **Coherent actions** that are designed to carry out the guiding policy. These are steps that are coordinated with one another to work together in accomplishing the guiding policy.
+
+
 ### [From Impossible To Inevitable - Aaron Ross & Jason Lemkin](https://www.amazon.com/Impossible-Inevitable-Hyper-Growth-Companies-Predictable/dp/1536692700)
 
-<% link_to "https://www.amazon.com/Impossible-Inevitable-Hyper-Growth-Companies-Predictable/dp/1536692700" do %>
+<% link_to "https://www.amazon.com/Impossible-Inevitable-Hyper-Growth-Companies-Predictable/dp/1536692700", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/from-impossible-to-inevitable.jpg" %>
 <% end %>
 
@@ -63,7 +97,7 @@ Jason Lemkin is the founder of [SaaStr](https://www.saastr.com/). If you want a 
 
 ### [Who: A Method for Hiring - Geoff Smart](https://www.amazon.com/Who-Geoff-Smart/dp/0345504194)
 
-<% link_to "https://www.amazon.com/Who-Geoff-Smart/dp/0345504194" do %>
+<% link_to "https://www.amazon.com/Who-Geoff-Smart/dp/0345504194", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/who.jpg" %>
 <% end %>
 
@@ -73,15 +107,25 @@ Read this before you hire anyone - it’s the best book on hiring methodology. W
 
 ### [Crucial Conversations - Kerry Patterson](https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822)
 
-<% link_to "https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822" do %>
+<% link_to "https://www.amazon.com/Crucial-Conversations-Talking-Stakes-Second/dp/1469266822", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/crucial-conversations.jpg" %>
 <% end %>
 
 If you need to have a tough conversation with anyone you’ll want to reference this book. 
 
+Their model has essentially 7 steps:
+
+1. Start with the heart (i.e empathy and positive intent)
+2. Stay in dialogue
+3. Make it safe
+4. Don’t get hooked by emotion (or hook them)
+5. Agree a mutual purpose
+6. Separate facts from story
+7. Agree a clear action plan
+
 ### [The Lean Startup - Eric Ries](https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898)
 
-<% link_to "https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898" do %>
+<% link_to "https://www.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/lean-startup.jpg" %>
 <% end %>
 
@@ -91,7 +135,7 @@ Eric was actually a student in Steve Blank's class. Most of the ideas in the lea
 
 ### [The Hard Thing About Hard Things - Ben Horowitz](https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205)
 
-<% link_to "https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205" do %>
+<% link_to "https://www.amazon.com/Hard-Thing-About-Things-Building/dp/0062273205", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/the-hard-thing-about-hard-things.jpg" %>
 <% end %>
 
@@ -101,7 +145,7 @@ While there is some advice in the book around management, the main value I found
 
 ### [Zero to One- Peter Thiel](https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/)
 
-<% link_to "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/" do %>
+<% link_to "https://www.amazon.com/Zero-One-Notes-Startups-Future/dp/0804139296/", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/zero-to-one.jpg" %>
 <% end %>
 
@@ -109,17 +153,26 @@ Zero to One centers on Thiel’s philosophy of competition and his approach to b
 
 ### [Actionable Gamification - Yu-Kai Chou](https://www.amazon.com/Actionable-Gamification-Beyond-Points-Leaderboards/dp/1511744049/)
 
-<% link_to "https://www.amazon.com/Actionable-Gamification-Beyond-Points-Leaderboards/dp/1511744049/" do %>
+<% link_to "https://www.amazon.com/Actionable-Gamification-Beyond-Points-Leaderboards/dp/1511744049/", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/actionable-gamification.jpg" %>
 <% end %>
 
 If you want an overview of what motivates people to do stuff then check out this book. The book is based on Chou's Octalysis framework - which despite the ridiculous name is actually really good.
 
+1. **Epic meaning and calling** - 
+2. **Development and accomplishment** - 
+3. **Empowerment of creativity and feedback** - 
+4. **Ownership and possession** - 
+5. **Social influence and relatedness** - 
+6. **Scarcity and impatience** - 
+7. **Unpredictability and curiosity** - constantly being engaged because you don't know what is going to happen next
+8. **Loss and avoidance** -
+
 This is super useful for external aspects like community and product design, as well as getting your team more engaged.
 
 ### [Traction - Gabriel Weinberg & Justin Mares](https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369)
 
-<% link_to "https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369" do %>
+<% link_to "https://www.amazon.com/Traction-Startup-Achieve-Explosive-Customer/dp/1591848369", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/traction.jpg" %>
 <% end %>
 
@@ -129,15 +182,23 @@ The book talks about a bullseye framework, which feels quite underdeveloped. For
 
 ### [Sprint - Jake Knapp, John Zeratsky & Braden Kowitz](https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X)
 
-<% link_to "https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X" do %>
+<% link_to "https://www.amazon.com/Sprint-Solve-Problems-Test-Ideas/dp/150112174X", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/sprint.jpg" %>
 <% end %>
 
 Rapidly prototyping ideas seems like a cool idea but it’s pretty hard to pull off. Sprint gives you a great framework for consistently getting it right. If you want to tackle a big problem that involves some building you’ll want to reference this - even if you don’t plan on following the whole process.
 
+Before the Design Sprint, prepare by picking the proper team, environment, materials and tools.
+
+1. **Understand:** Discover the business opportunity, the audience, the competition, the value proposition, and define metrics of success.
+2. **Diverge:** Explore, develop and iterate creative ways of solving the problem, regardless of feasibility.
+3. **Converge:** Identify ideas that fit the next product cycle and explore them in further detail through storyboarding.
+4. **Prototype:** Design and prepare prototype(s) that can be tested with people.
+5. **Test:** Conduct 1:1 user testing with (5-6) people from the product's primary target audience. Ask good questions
+
 ### [Simplify - Richard Koch & Greg Lockwood](https://www.amazon.com/gp/product/B0151YR4TY/)
 
-<% link_to "https://www.amazon.com/gp/product/B0151YR4TY/" do %>
+<% link_to "https://www.amazon.com/gp/product/B0151YR4TY/", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/simplify.jpg" %>
 <% end %>
 
@@ -147,7 +208,7 @@ It's also worth checking out [Michael Porter](https://www.goodreads.com/author/l
 
 ### [Leadership: The Care and Growth Model - Etsko Schuitema](https://www.amazon.com/Leadership-Growth-Model-Etsko-Schuitema-ebook/dp/B00GUTRAIA)
 
-<% link_to "https://www.amazon.com/Leadership-Growth-Model-Etsko-Schuitema-ebook/dp/B00GUTRAIA" do %>
+<% link_to "https://www.amazon.com/Leadership-Growth-Model-Etsko-Schuitema-ebook/dp/B00GUTRAIA", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/leadership-care-and-growth.jpg" %>
 <% end %>
 
@@ -157,7 +218,7 @@ The book and it's concepts were introduced to me by one of my friends, Francois 
 
 ### [The Innovator's Dilemma - Clayton M. Christensen](https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780)
 
-<% link_to "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780" do %>
+<% link_to "https://www.amazon.com/Innovators-Dilemma-Technologies-Management-Innovation/dp/1633691780", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/the-innovators-dilemma.jpg" %>
 <% end %>
 
@@ -166,7 +227,7 @@ Why it's so hard for large companies to innovate.
 
 ### [The Fountainhead - Ayn Rand](https://www.amazon.com/Fountainhead-Ayn-Rand/dp/0452273331)
 
-<% link_to "https://www.amazon.com/Fountainhead-Ayn-Rand/dp/0452273331" do %>
+<% link_to "https://www.amazon.com/Fountainhead-Ayn-Rand/dp/0452273331", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/the-fountainhead.jpg" %>
 <% end %>
 
@@ -174,15 +235,23 @@ This book is massive. It's also worth reading [Atlas Shrugged](https://www.amazo
 
 ### [Four Steps to the Epiphany - Steve Blank](https://www.amazon.com/Four-Steps-Epiphany-Steve-Blank/dp/0989200507)
 
-<% link_to "https://www.amazon.com/Four-Steps-Epiphany-Steve-Blank/dp/0989200507" do %>
+<% link_to "https://www.amazon.com/Four-Steps-Epiphany-Steve-Blank/dp/0989200507", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/four-steps-to-the-epiphany.jpg" %>
 <% end %>
+
+These first two steps validate the assumptions in your business model, that a market exists for your product, who your customers will be, the target buyers, establishes pricing, sales process and channels strategy.
+
+
+1. **Customer Discovery** is about finding out if there are customers for your idea and if and what they would be willing to pay for it, before you write a line of code. "Get out of the building"
+2. **Customer Validation** creates a repeatable sales and marketing road-map based on the lessons learned in selling (not giving it away) to the first early customers. 
+3. **Customer Creation** builds on early sales success and after completion of Customer Validation. Customer Creation strategies define the four types of start-up
+4. **Company Building** is where the company transitions from its informal learning and discovery oriented Customer Development team into formal sales, marketing and business development teams.
 
 Steve Blank also has a really [great blog](https://steveblank.com/) where he talks about startups and marketing. If you're planning a trip to San Francisco I highly recommend you check out [Steve's guide to Silicon Valley](https://steveblank.com/visitors-guide/).
 
 ### [The Beginning on Infinity - David Deutsch](https://www.amazon.com/gp/product/0670022756)
 
-<% link_to "https://www.amazon.com/gp/product/0670022756" do %>
+<% link_to "https://www.amazon.com/gp/product/0670022756", :class => 'img-link' do %>
     <%= image_tag "21-startup-books-that-changed-the-way-i-think/the-beginning-of-infinity.jpg" %>
 <% end %>
 
@@ -190,7 +259,9 @@ How knowledge is created, what a good governance system is.
 
 ### [Essays by Paul Graham](http://paulgraham.com/articles.html)
 
-This isn't actually a book - but rather a collection of essays. Below are a few of his best essays:
+First off I should say that this isn't actually a book, but rather a collection of essays. Paul Graham is the co-founder of [YCombinator](http://www.ycombinator.com/), a startup accelerator in Silicon Valley which has funded companies like Airbnb, Dropbox, Reddit and Stripe.
+
+Below are a few of his best essays:
 
 * [Do Things That Don't Scale](http://paulgraham.com/ds.html)
 * [Startup = Growth](http://paulgraham.com/growth.html)
